@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>APEC Login</title>
+
+<style>
+  body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: linear-gradient(120deg, #4facfe, #00f2fe);
+  }
+
+  .box{
+    background:white;
+    padding:30px;
+    width:320px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+  }
+
+  .logo{
+    width:90px;
+    height:auto;
+    margin-bottom:10px;
+  }
+
+  h2{
+    margin:10px 0 20px;
+    color:#1f3c88;
+  }
+
+  input{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+    border:1px solid #ccc;
+    border-radius:6px;
+  }
+
+  button{
+    width:100%;
+    padding:10px;
+    border:none;
+    border-radius:6px;
+    background:#1f3c88;
+    color:white;
+    cursor:pointer;
+    font-size:16px;
+  }
+
+  button:hover{
+    background:#0f2557;
+  }
+
+</style>
+</head>
+
+<body>
+
+<div class="box">
+
+  <!-- LOGO (IMPORTANT FILE NAME MUST BE logo.png) -->
+  <img src="./logo.png" class="logo" alt="College Logo">
+
+  <h2>APEC LOGIN</h2>
+
+  <form>
+    <input type="text" placeholder="Username" required>
+    <input type="password" placeholder="Password" required>
+    <button type="submit">Login</button>
+  </form>
+
+</div>
+
+</body>
+</html>
